@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+body{
+    @apply bg-blue-600 flex items-center justify-center h-screen
+}
+ 
+#main{
+    @apply flex flex-col justify-around items-center py-10 px-7 rounded-2xl gap-8 bg-white
+}
+
+#mainHead{
+    @apply text-4xl font-bold text-blue-600
+}
+
+#amountDiv{
+    @apply flex flex-col gap-1.5 w-[100%] shadow-2xl
+}
+
+#amountHead{
+    @apply font-bold text-[15px]
+}
+
+#amount{
+    @apply border-2 border-blue-600/60 shadow-2xs rounded-xl px-2.5 py-0.5
+}
+
+#convertor{
+    @apply flex justify-around items-center w-[100%] 
+}
+
+select,option{
+    @apply bg-blue-600 rounded-xl py-1 px-3 self-center text-amber-50
+}
+
+#msg-div{
+    @apply bg-red-600 rounded-xl py-1 px-3 self-center shadow-2xl
+}
+
+#msg{
+    @apply text-white font-bold
+}
+
+#exc-btn {
+    @apply rounded-xl bg-blue-600 text-lg font-semibold text-white py-1 px-3 self-stretch shadow-2xl
+           hover:bg-white hover:border-2 hover:border-blue-600 hover:text-blue-600
+           ease-in duration-100 transition-all;
+}
+
+img{
+    @apply border border-blue-600/50 overflow-hidden rounded-xl px-1.5
+    
+}
